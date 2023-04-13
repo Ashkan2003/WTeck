@@ -1,0 +1,88 @@
+/* --------------------header style----------------------- */
+.profile-1{
+    width: 40px;
+    height: 40px;
+}
+header a{
+    transition: all 0.3s !important;
+}
+header a:hover {
+    color: rgb(122, 3, 233) !important;
+}
+header i{
+    color: rgb(106, 106, 106);
+}
+header a:hover i {
+    color: rgb(122, 3, 233) !important;
+}
+@media screen and (min-width:992px) {/*یعنی در سایز های ال جی و بالاتر منو ها هاور شوند ولی در سایز های کوچک تر از ال جی هاور منو نباشد*/
+    header li:hover .dropdown-menu{
+        display: block !important;
+    }
+}
+
+header .nav-link{
+    font-weight: 550 !important;
+}
+header .dropdown-item{
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+header .dropdown-item:hover{
+    background-color: rgba(91, 70, 246, 0.227) !important;
+}
+/* -----------------------main banner style----------------------------- */
+#content-title{
+    font-size: 3rem;
+}
+/* -------------------------tab content style------------------------ */
+.course .my-css img{
+    height: 200px !important;
+}
+.course .tab-content h5 a{
+    text-decoration: none !important;
+    color: rgb(52, 52, 52);
+    transition: all 0.3s;
+}
+.course .tab-content h5 a:hover{
+    color: rgb(86, 71, 202);    
+}
+/* ------------section trending courses ------------------ */
+.trend-course .card-title a{
+    text-decoration: none !important;
+    color: rgb(52, 52, 52);
+    transition: all 0.3s;
+}
+.trend-course .card-title a:hover{
+    color: rgb(86, 71, 202); 
+}
+.trend-course .card-footer img{
+    width: 50px;
+    height: 50px;
+}
+.trend-course .card {
+    transition: all 0.4s;
+}
+.trend-course .card:hover{
+    transform: translate(0px,-7px) !important;
+}
+/* -------------section feedback-------------------------- */
+.feedback{
+    background-color:rgba(190, 187, 187, 0.601) ;
+}
+.feedback img{
+    width: 70px;
+    height: 70px;
+}
+/* ---------------footer---------------------------- */
+footer a{
+    text-decoration: none;
+    list-style-type: none !important;
+    padding-left: 0 !important;
+    color: rgb(106, 106, 106) !important;
+    transition: all 0.4s;
+}
+footer a:hover{
+    color: rgb(86, 53, 184) !important;
+    
+}
